@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8426" started-at="2017-12-15T14:14:03Z" finished-at="2017-12-15T14:14:12Z">
+  <suite name="Suite" duration-ms="15946" started-at="2017-12-18T09:45:38Z" finished-at="2017-12-18T09:45:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8426" started-at="2017-12-15T14:14:03Z" finished-at="2017-12-15T14:14:12Z">
+    <test name="Test" duration-ms="15946" started-at="2017-12-18T09:45:38Z" finished-at="2017-12-18T09:45:53Z">
+      <class name="testcases.TC_002">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.TC_002@11758f2a]" name="testcase1" duration-ms="4904" started-at="2017-12-18T10:45:43Z" finished-at="2017-12-18T10:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- testcases.TC_002 -->
       <class name="testcases.TC_001">
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.TC_001@4eb7f003]" name="testcase1" duration-ms="8398" started-at="2017-12-15T15:14:03Z" finished-at="2017-12-15T15:14:12Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.TC_001@612fc6eb]" name="testcase1" duration-ms="5497" started-at="2017-12-18T10:45:38Z" finished-at="2017-12-18T10:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
       </class> <!-- testcases.TC_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.TC_003">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.TC_003@e720b71]" name="testcase1" duration-ms="5513" started-at="2017-12-18T10:45:48Z" finished-at="2017-12-18T10:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- testcases.TC_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
